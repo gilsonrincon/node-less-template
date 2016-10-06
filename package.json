@@ -1,0 +1,36 @@
+{
+  "name": "node-less-template",
+  "version": "1.0.0",
+  "description": "This app represents the starting point for any NodeJS project which uses LESS and few other libraries\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hello World, this is the test command for my new app\" && exit 0",
+    "reset": "echo \"Removing CSS, JS and fonts folders...\" && rm -Rf css fonts js && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilsonrincon/node-less-template.git"
+  },
+  "keywords": [
+    "nodejs",
+    "template",
+    "less"
+  ],
+  "author": "Gilson Rincón @gilsonrincon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gilsonrincon/node-less-template/issues"
+  },
+  "homepage": "https://github.com/gilsonrincon/node-less-template#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-less": "^3.1.0",
+    "gulp-livereload": "^3.8.1",
+    "merge-stream": "^1.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}
